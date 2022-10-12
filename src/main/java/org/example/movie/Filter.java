@@ -1,4 +1,4 @@
-package org.example.SpringBasedDependencyInjection;
+package org.example.movie;
 
 
 public interface Filter {

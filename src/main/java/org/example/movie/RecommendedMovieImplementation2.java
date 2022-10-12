@@ -1,11 +1,7 @@
-package org.example.SpringBasedDependencyInjection;
+package org.example.movie;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
-
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
 
 //@Inject
 @Component
@@ -18,6 +14,7 @@ public class RecommendedMovieImplementation2 {
 
     // Constructor Injection (Autowiring + Injecting)
     public RecommendedMovieImplementation2( Filter filter){
+        super();
         this.filter = filter;
     }
 

@@ -4,21 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b3208c5-6921-4fc7-8086-650489f10928" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBasedDependencyInjection/ContentFiltering2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBasedDependencyInjection/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBasedDependencyInjection/MultiFiltering2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringBasedDependencyInjection/RecommendedMovieImplementation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jUnit/JunitTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sprinBootTests/RecommendedMovieImplementationSpringBootTest.java" afterDir="false" />
+    <list default="true" id="8b3208c5-6921-4fc7-8086-650489f10928" name="Changes" comment="using SpringBoot Tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/jUnit/RecommendedMovieSpringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jUnit/RecommendedMovieXmlTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/app-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpringBasedDependencyInjection/ContentFiltering2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/ContentFiltering2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpringBasedDependencyInjection/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpringBasedDependencyInjection/MultiFiltering2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/MultiFiltering2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SpringBasedDependencyInjection/RecommendedMovieImplementation2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/RecommendedMovieImplementation2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jUnit/JunitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jUnit/JunitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sprinBootTests/RecommendedMovieImplementationSpringBootTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sprinBootTests/RecommendedMovieImplementationSpringBootTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +42,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/JAVA Demo Maven/Spring_Unit_Testing/src/main/java/org/example"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JAVA Demo Maven/Spring_Unit_Testing/src/main/java/org/example&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\JAVA Demo Maven\Spring_Unit_Testing\src\main\java\org\example" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\JAVA Demo Maven\Spring_Unit_Testing\src\test\resources" />
+      <recent name="C:\JAVA Demo Maven\Spring_Unit_Testing\src" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RecommendedMovieXmlTests">
+    <configuration name="JunitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Unit_Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jUnit" />
+      <option name="MAIN_CLASS_NAME" value="jUnit.JunitTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RecommendedMovieImplementationSpringBootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring_Unit_Testing" />
       <extension name="coverage">
@@ -73,8 +90,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecommendedMovieSpringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Unit_Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jUnit" />
+      <option name="MAIN_CLASS_NAME" value="jUnit.RecommendedMovieSpringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecommendedMovieXmlTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Unit_Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jUnit" />
+      <option name="MAIN_CLASS_NAME" value="jUnit.RecommendedMovieXmlTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RecommendedMovieXmlTests" />
+        <item itemvalue="JUnit.RecommendedMovieSpringTest" />
+        <item itemvalue="JUnit.JunitTests" />
         <item itemvalue="JUnit.RecommendedMovieImplementationSpringBootTest" />
       </list>
     </recent_temporary>
@@ -88,6 +138,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665480897982</updated>
     </task>
+    <task id="LOCAL-00001" summary="using SpringBoot Tests">
+      <created>1665485131066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665485131066</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,5 +158,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="using SpringBoot Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="using SpringBoot Tests" />
   </component>
 </project>

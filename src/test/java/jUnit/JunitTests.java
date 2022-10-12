@@ -1,15 +1,13 @@
 package jUnit;
 
-import com.sun.org.apache.xpath.internal.operations.Mult;
-import org.example.SpringBasedDependencyInjection.ContentFiltering2;
-import org.example.SpringBasedDependencyInjection.MultiFiltering2;
-import org.example.SpringBasedDependencyInjection.RecommendedMovieImplementation2;
+import org.example.movie.ContentFiltering2;
+import org.example.movie.MultiFiltering2;
+import org.example.movie.RecommendedMovieImplementation2;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 
 public class JunitTests {
